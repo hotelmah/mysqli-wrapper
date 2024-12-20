@@ -7,7 +7,7 @@
     "license": "GPL-3.0-only",
     "autoload": {
         "psr-4": {
-            "Hotelmah\\MysqliWrapper\\": "src/"
+            "MySQLi\\": "src/"
         }
     },
     "authors": [
@@ -18,7 +18,7 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": ">=7.0.0"

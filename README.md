@@ -1,9 +1,9 @@
 ## About
-This package is a wrapper class of the PHP MySQLi database extension. This class provides connection and query error message and number properties. This class can navigate a ResultSet and provides useful properties of the ResultSet like number of rows. This library is used by the MySQL Table Editor project referenced [here](https://github.com/hotelmah/mysql-table-editor).
+This package is a wrapper class of the PHP MySQLi database extension. This class provides connection and query error message and number properties. This class can navigate a ResultSet and provides useful properties of the ResultSet like number of rows. This library is used by the MySQL Table Editor (MTE) project referenced [here](https://github.com/hotelmah/mysql-table-editor).
 
 
 ## Important
-- Please edit the config.server.constants.php file in the src folder manually. The database connection properites are read from this file.
+- Please edit the config.server.constants.php file in the src folder manually. The database connection properties are read from this file.
 
 
 ## Test File
@@ -18,7 +18,7 @@ require_once('vendor/autoload.php');
 `
 
 `
-use MySQLi\ClsDataBaseMySqliMTE;
+use MySQLi\ClsDataBaseWrapperMTE;
 `
 
 

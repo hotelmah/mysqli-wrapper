@@ -2,9 +2,7 @@
 
 namespace MySQLi;
 
-require_once('class.db.mysqli.wrapper.base.php');
-
-class ClsDataBaseMySqliMTE extends ClsDataBaseMySQLiBase
+class ClsDataBaseWrapperMTE extends ClsDataBaseWrapperBase
 {
     public function getTableRecords(string $TempQuery): void
     {

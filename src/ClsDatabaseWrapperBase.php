@@ -4,7 +4,7 @@ namespace MySQLi;
 
 require_once('config.server.constants.php');
 
-class ClsDataBaseMySQLiBase
+class ClsDataBaseWrapperBase
 {
     protected object $MySQLi;
     protected object $MySQLiResultSet;
