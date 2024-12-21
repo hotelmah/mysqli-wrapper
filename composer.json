@@ -11,8 +11,8 @@
         }
     },
     "require": {
-        "PHP": ">=7.0.0",
-        "MySQLi": ">=8.0"
+        "php": ">=7.0.0",
+        "ext-mysqli": ">=8.0"
     },
     "authors": [
         {
