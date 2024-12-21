@@ -1,7 +1,7 @@
 {
     "name": "hotelmah/mysqli-wrapper",
     "type": "library",
-    "description": "This MySQLi wrapper class provides properties for Connection and Query Error Messages and ResultSet Properties and Methods to navigate a ResultSet. Connection and Server properties are also provided, basically all of the available features the extension provides.",
+    "description": "This MySQLi wrapper base class provides properties for Connection and Query Error Messages and ResultSet Properties and Methods to navigate a ResultSet. Connection and Server properties are also provided, basically all of the available features the extension provides.",
     "keywords": ["Database", "MySQLi", "Wrapper", "PHP"],
     "homepage": "https://github.com/hotelmah/mysqli-wrapper",
     "license": "GPL-3.0-only",
@@ -9,6 +9,10 @@
         "psr-4": {
             "MySQLi\\": "src/"
         }
+    },
+    "require": {
+        "PHP": ">=7.0.0",
+        "MySQLi": ">=8.0"
     },
     "authors": [
         {
@@ -19,14 +23,5 @@
         }
     ],
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "require": {
-        "php": ">=7.0.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/hotelmah/mysqli-wrapper"
-        }
-    ]
+    "prefer-stable": true
 }
